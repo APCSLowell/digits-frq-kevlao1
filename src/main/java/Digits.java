@@ -15,8 +15,8 @@ public class Digits
 			digitList.add(origNum%10);
 			origNum = origNum/10;
 		}
+	while(checker > digitList.size()){
 		if(checker > digitList.size()){
-			while(checker > digitList.size()){
 				digitList.add(0, 0);
 			}
 		}
