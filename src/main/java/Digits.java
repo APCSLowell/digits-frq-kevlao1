@@ -7,6 +7,7 @@ public class Digits
 
 	public Digits(int num)
 	{ 
+		digitList = new ArrayList<Integer>();
 		int origNum  = num;
 		String uhOh = Integer.toString(num);
 		int checker = uhOh.length();
