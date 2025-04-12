@@ -12,7 +12,7 @@ public class Digits
 		String uhOh = Integer.toString(num);
 		int checker = uhOh.length();
 		while(origNum > 0){
-			digitList.add(origNum%10);
+			digitList.add(0, origNum%10);
 			origNum = origNum/10;
 		}
 	while(checker > digitList.size()){
